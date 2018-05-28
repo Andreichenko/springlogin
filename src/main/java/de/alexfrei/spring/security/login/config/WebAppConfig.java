@@ -1,4 +1,7 @@
 package de.alexfrei.spring.security.login.config;
 
-public class WebAppConfig {
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+
+public class WebAppConfig extends WebMvcConfigurerAdapter {
+
 }
