@@ -1,4 +1,10 @@
 package de.alexfrei.spring.security.login.servcie;
 
-public class UserService {
+
+import de.alexfrei.spring.security.login.entity.User;
+
+public interface UserService {
+
+
+    User getUser(String login);
 }
