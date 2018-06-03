@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class User {
 
-    private String login;
+    private String login;   // todo login
     private String password;
 
     public User() {
