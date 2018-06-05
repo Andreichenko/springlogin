@@ -22,7 +22,7 @@ public class UserDetailsServiceImpl implements UserDetailsService{
 
     @Override
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
-        User user = userService.getUser("user");
+        de.alexfrei.spring.security.login.entity.User user = userService.getUser("user");
         Set<GrantedAuthority> roles = new HashSet();
         roles.add(new SimpleGrantedAuthority(UserRoleEnums.USER.name()));
         UserDetails userDetails =
