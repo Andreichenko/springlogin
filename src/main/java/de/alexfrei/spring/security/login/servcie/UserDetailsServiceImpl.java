@@ -20,6 +20,13 @@ public class UserDetailsServiceImpl implements UserDetailsService{
     @Autowired
     private UserService userService;
 
+    /**
+     *
+     * @param email
+     * @return
+     * @throws UsernameNotFoundException
+     */
+
     @Override
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
         de.alexfrei.spring.security.login.entity.User user = userService.getUser("user");
