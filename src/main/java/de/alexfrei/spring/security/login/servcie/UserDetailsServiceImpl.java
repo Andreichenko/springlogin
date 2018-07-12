@@ -22,7 +22,7 @@ public class UserDetailsServiceImpl implements UserDetailsService{
 
     /**
      *
-     * @param email
+     * @param email it is email person
      * @return
      * @throws UsernameNotFoundException
      */
