@@ -6,5 +6,5 @@ import de.alexfrei.spring.security.login.entity.User;
 public interface UserService {
 
 
-    User getUser(String login);   // login
+    User getUser(String login);   // Loginform for auth
 }
