@@ -11,7 +11,7 @@
 
 
     <properties>
-        <spring.mvc>5.3.9.RELEASE</spring.mvc>
+        <spring.mvc>5.3.10.RELEASE</spring.mvc>
         <javax.servlet>3.0.1</javax.servlet>
         <jstl.version>1.2</jstl.version>
         <spring.security>3.2.0.RELEASE</spring.security>
